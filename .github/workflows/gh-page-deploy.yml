@@ -11,4 +11,5 @@ jobs:
               with:
                   username: "4msar"
                   reponame: "tailwind-ui"
+                  useyarn: true
                   token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
