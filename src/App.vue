@@ -2,6 +2,7 @@
 import { ArrowDown } from 'lucide-vue-next';
 import CurvedImage from './components/CurvedImage.vue'
 import StickyTitle from './components/StickyTitle.vue'
+import AnimatedImage from './components/AnimatedImage.vue'
 </script>
 
 <template>
@@ -16,6 +17,9 @@ import StickyTitle from './components/StickyTitle.vue'
     <!-- Main Component Lists -->
     <section class="h-screen">
       <CurvedImage class="container mx-auto" />
+    </section>
+    <section class="h-screen">
+      <AnimatedImage class="container mx-auto" />
     </section>
     <section class="h-screen">
       <StickyTitle class="container mx-auto" />

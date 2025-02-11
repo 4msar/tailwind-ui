@@ -1,5 +1,5 @@
 <template>
-    <div class="relative">
+    <div class="relative max-h-screen">
         <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-green-400">
             <h2 class="text-4xl">The First Title</h2>
             <p>Scroll Down</p>

@@ -3,3 +3,20 @@
 @utility text-dynamic {
     font-size: clamp(var(--text-4xl), 5vw, 10vw);
 }
+
+@utility marquee {
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+    animation: 15s linear 0s infinite normal none running marquee;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0)
+    }
+
+    to {
+        transform: translate(-100%)
+    }
+}
