@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@utility text-dynamic {
+    font-size: clamp(var(--text-4xl), 5vw, 10vw);
+}
